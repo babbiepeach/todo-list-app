@@ -1,7 +1,12 @@
 import React from "react";
+import TodoWrapper from "./components/TodoWrapper";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <>
+      <TodoWrapper />
+    </>
+  );
 };
 
 export default App;
